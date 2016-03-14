@@ -85,7 +85,7 @@ Vagrant.configure(2) do |config|
     sudo echo 'export PATH=/opt/maven/bin:$PATH' >> /etc/profile
     mkdir /home/vagrant/.m2
     cp /vagrant/maven-settings.xml /home/vagrant/.m2/settings.xml
-    chown -r vagrant /home/vagrant/.m2
+    chown -R vagrant /home/vagrant/.m2
 
   SHELL
 end
