@@ -78,6 +78,8 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y subversion
     sudo apt-get install -y git
     sudo apt-get install -y emacs24-nox
+    sudo apt-get install -y tree
+    
 
     sudo wget http://mirror.vorboss.net/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz -O /opt/mvn.tgz
     sudo tar xfz /opt/mvn.tgz  --directory /opt
